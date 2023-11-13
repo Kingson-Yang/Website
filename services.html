@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="navb-logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="navb-items d-none d-lg-flex">
+                 <div class="item">
+                    <a href="index.html">Home</a>
+                 </div>
+
+                 <div class="item">
+                    <a href="services.html">Services</a>
+                 </div>
+
+                 <div class="item">
+                    <a href="about.html">About</a>
+                 </div>
+
+                 <div class="item-button">
+                    <a href="contact.html" type="button">Book Now</a>
+                 </div>
+            </div>
+
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content"> 
+                        <div class="modal-header">
+                            <img src="footer.png" alt="">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-house"></i><a href="index.html">Home</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <i class="fa-solid fa-bell-concierge"></i><a href="services.html">Services</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <i class="fa-solid fa-circle-info"></i><a href="about.html">About</a>
+                            </div>
+
+                            <a href="contact.html" class="navb-button" type="button">Book Now</a>
+                        </div>
+
+                        <div class="mobile-modal-footer">
+
+                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="video d-lg-flex">
+                <div class="nail">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/KXbiy4afrog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h2>Acrylic Nails</h2>
+                    <p>Welcome to our acrylic nail tutorial video! In this step-by-step guide, we'll show you how to create stunning acrylic nails that will make you feel confident and beautiful.
+                        Our experienced nail artist will walk you through the entire process, from preparing your nails to choosing the right nail shapes and colors. We'll also share some tips and tricks to make your acrylic nails last longer and look flawless.
+                    </p>
+                </div>
+                <div class="makeup">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/dhLCzSwUTvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h2>Make Up</h2>
+                    <p>
+                        Welcome to our makeup tutorial video! In this tutorial, our expert makeup artist will guide you through creating a flawless makeup look that's perfect for any occasion.
+    From achieving the perfect base to creating a stunning eye look and adding the finishing touches, we've got you covered. We'll also share some helpful tips and tricks along the way to help you achieve a professional-looking makeup look.
+                    </p>
+                </div>
+                <div class="hair">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/1c_gHonRtYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h2>Hair Styles</h2>
+                    <p>
+                        Welcome to our hair styling tutorial video! In this tutorial, our skilled hairstylist will show you how to create a variety of stunning hairstyles that are perfect for any occasion.
+    From simple and elegant updos to intricate braids and glamorous curls, we've got you covered. We'll also share some tips and tricks along the way to help you achieve a professional-looking hairstyle that lasts all day.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
